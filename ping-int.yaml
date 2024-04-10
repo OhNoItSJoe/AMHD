@@ -1,6 +1,6 @@
 ---
 - name: Test Kerberos Authentication
-  hosts: SBB-B-INT22-1.sb-bau.de
+  hosts: SBB-B-INT22-1
   gather_facts: false
   tasks:
     - name: Ensure windows host is reachable
