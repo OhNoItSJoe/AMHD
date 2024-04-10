@@ -1,0 +1,7 @@
+---
+- name: Test Kerberos Authentication
+  hosts: SBB-B-INT22-1.sb-bau.de
+  gather_facts: false
+  tasks:
+    - name: Ensure windows host is reachable
+      ansible.windows.win_ping:
